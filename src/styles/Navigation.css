@@ -1,0 +1,54 @@
+@media (max-width: 991.98px) {
+  /* breakpoint lg, el mismo que usas en expand="lg" */
+  .navbar-collapse {
+    text-align: center; /* centra texto dentro del contenedor */
+  }
+
+  .navbar-collapse .nav {
+    justify-content: center !important; /* centra los Nav.Link en flexbox */
+    flex-direction: column; /* opcional: que se apilen verticalmente */
+    gap: 1rem; /* espacio vertical entre links */
+  }
+
+  /* Opcional: para los botones también */
+  .navbar-collapse .d-flex {
+    justify-content: center !important;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation-link {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .user-info {
+    padding: 5px 0;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* breakpoint lg, el mismo que usas en expand="lg" */
+  .navbar-collapse {
+    text-align: center; /* centra texto dentro del contenedor */
+  }
+
+  .navbar-collapse .nav {
+    justify-content: center !important; /* centra los Nav.Link en flexbox */
+    flex-direction: column; /* opcional: que se apilen verticalmente */
+    gap: 1rem; /* espacio vertical entre links */
+  }
+
+  /* Opcional: para los botones también */
+  .navbar-collapse .d-flex {
+    justify-content: center !important;
+    margin-top: 1rem;
+  }
+}
+.navbar .nav-link.navigation-link:hover {
+  background-color: rgb(249, 239, 239);
+  border-bottom: 4px solid rgb(227, 3, 3);
+}

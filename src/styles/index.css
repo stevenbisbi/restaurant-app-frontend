@@ -1,0 +1,50 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(235, 235, 221);
+}
+
+.background-fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.logout-button {
+  position: relative;
+  bottom: 0;
+  margin: 10px;
+  max-width: 350px;
+  width: 100%;
+}
